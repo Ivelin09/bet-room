@@ -59,6 +59,8 @@ async function createAdminAcc() {
         hashedPassword: hashedPassword,
     });
     await user.save();
+    console.log('Admin account created');
+    
 }
 
 export {

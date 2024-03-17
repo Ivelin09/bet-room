@@ -11,7 +11,7 @@ const app = new Hono();
 
 async function connectToDatabase() {
     const databaseUrl: string =
-        process.env.MONGODB_URI || 'mongodb://localhost:27017/hono';
+        "mongodb+srv://admin:D0alI5mETcGMyF8m@betroom.dvrwyfp.mongodb.net/betroom?retryWrites=true&w=majority&appName=Betroom";
     try {
         await mongoose.connect(databaseUrl);
         console.log('Connected to the database');
