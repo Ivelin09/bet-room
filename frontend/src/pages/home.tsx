@@ -7,16 +7,14 @@ import {
     Divider,
 } from '@nextui-org/react';
 import { CardComponent } from '../components/CardComponent';
+import { Hero } from '../components/Hero';
 
 const Home = () => {
     return (
-        <div
-            className='sm:h-[90vh] h-full flex flex-col justify-center items-center bg-auto bg-no-repeat bg-fixed'
-            style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/football.jpg')`,
-            }}
-        >
+        <div>
+            {/* <Hero></Hero> */}
             {/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
+			
             <div className='flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold '>
                 <CardComponent
                     title='10'
