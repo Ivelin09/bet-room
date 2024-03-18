@@ -69,7 +69,7 @@ function startServer(app: Hono) {
 }
 
 async function start() {
-    // await connectToDatabase();
+    await connectToDatabase();
     const app = configureServer();
     startServer(app);
 }

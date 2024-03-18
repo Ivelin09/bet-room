@@ -8,14 +8,16 @@ import {
     NavbarMenu,
     NavbarMenuItem,
 } from '@nextui-org/react';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
     const menuItems = ['Features', 'Customers', 'Integrations'];
+    const navigate = useNavigate();
 
     return (
-        <Navbar isBordered position='static' >
-            <NavbarBrand>
-                <p className='font-bold text-inherit'>BETROOM</p>
+        <Navbar isBordered >
+            <NavbarBrand onClick={() => navigate('/')}>
+                <p className='font-bold cursor-pointer text-inherit'>BETROOM</p>
             </NavbarBrand>
             <NavbarContent className='hidden sm:flex gap-4' justify='end'>
                 <NavbarItem>

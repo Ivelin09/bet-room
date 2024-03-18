@@ -11,12 +11,20 @@ export const CardComponent = ({
     title,
     text,
     price,
+    setCheckout,
+    onOpen,
+    setCartItem,
 }: {
     title: string;
     text: string;
     price: number;
+    setCheckout: React.Dispatch<React.SetStateAction<boolean>>;
+    onOpen: () => void;
+    setCartItem: React.Dispatch<React.SetStateAction<{title: string, price: number}>>;
 }) => {
     return (
+
+        
         <Card className='sm:w-2/12 w-full py-2 '>
             <CardBody className='flex flex-col gap-4'>
                 <div className='flex flex-col justify-center items-center'>
@@ -50,6 +58,11 @@ export const CardComponent = ({
                     <Button
                         color='primary'
                         variant='shadow'
+                        onClick={() => {
+                            setCheckout(true);
+                            onOpen();
+                            setCartItem({title: title, price: price});
+                        }}
                         radius='lg'
                         className='uppercase'
                     >
