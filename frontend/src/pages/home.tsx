@@ -93,6 +93,7 @@ const Home = () => {
 				<Link
 					color="primary"
 					underline="hover"
+                    onClick={() => navigate('/privacy-and-cookie-policy')}
 					className="font-bold uppercase text-lg cursor-pointer"
 				>
 					privacy
