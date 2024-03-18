@@ -1,25 +1,12 @@
-import nodemailer from 'nodemailer';
 
-const to = 'dingi7@abv.bg';
-
-const transport = nodemailer.createTransport({
-    host: 'live.smtp.mailtrap.io',
-    port: 587,
-    auth: {
-        user: 'api',
-        pass: 'efb0917237dfc8e76ae021439b048330',
-    },
-});
+import Email from '../models/email';
 
 export async function sendMail(sender: string, message: string) {
-    // send mail with defined transport object
-    const info = await transport.sendMail({
-        from: sender, // sender address
-        to: `${to}`, // list of receivers
-        subject: "Contact us email", // Subject line
-        text: message
-        // html: html, // html body
+    const email = new Email({
+        sender,
+        subject: 'New email from betroom',
+        text: message,
     });
+    await email.save();
 
-    console.log('Message sent: %s', info.messageId);
 }
