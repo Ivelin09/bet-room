@@ -12,17 +12,21 @@ const Home = () => {
 		<div
 			className="sm:h-[90vh] h-full flex flex-col justify-center items-center bg-auto bg-no-repeat bg-fixed"
 			style={{
-				backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('http://192.168.0.101:5000/src/assets/football.jpg')`,
+				backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/football.jpg')`,
 			}}
 		>
 			{/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
-			<div className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center  ">
+			<div className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold ">
 				<Card className="sm:w-2/6 w-full py-2">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
-							<p className="text-lg uppercase">10 odds</p>
+							<p className="text-3xl uppercase ">10 odds</p>
 							<p className="text-lg uppercase">combo</p>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
 						<div className="flex flex-col justify-center items-center text-md">
 							<p>3 - 4 matches combo</p>
 							<p>based on 1x2 0/4</p>
@@ -34,6 +38,11 @@ const Home = () => {
 								no refund!
 							</Link>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
+
 						{/* <p className="font-bold text-red-600 uppercase text-lg">no refund!</p> */}
 					</CardBody>
 					<CardFooter>
@@ -60,9 +69,13 @@ const Home = () => {
 				<Card className="sm:w-2/6 w-full py-2">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
-							<p className="text-lg uppercase">20 odds</p>
+							<p className="text-3xl uppercase ">20 odds</p>
 							<p className="text-lg uppercase">combo</p>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
 						<div className="flex flex-col justify-center items-center text-md">
 							<p>4 - 5 matches combo</p>
 							<p>based on 1x2 0/4</p>
@@ -75,6 +88,10 @@ const Home = () => {
 								no refund!
 							</Link>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
 					</CardBody>
 					<CardFooter>
 						<div className="flex flex-col gap-3 justify-center items-center w-full">
@@ -100,9 +117,13 @@ const Home = () => {
 				<Card className="sm:w-2/6 w-full py-2">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
-							<p className="text-lg uppercase">50 odds</p>
+							<p className="text-3xl uppercase ">50 odds</p>
 							<p className="text-lg uppercase">combo</p>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
 						<div className="flex flex-col justify-center text-md items-center ">
 							<p>5 - 6 matches combo</p>
 							<p>based on 1x2 0/4</p>
@@ -115,6 +136,10 @@ const Home = () => {
 								no refund!
 							</Link>
 						</div>
+						<Divider
+							orientation="horizontal"
+							className="bg-white text-white"
+						/>
 						{/* <p className="font-bold text-red-600 uppercase text-lg">no refund!</p> */}
 					</CardBody>
 					<CardFooter>
