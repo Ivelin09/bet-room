@@ -34,7 +34,7 @@ function configureServer() {
 
     // Routes
     app.get('/', (c) => c.text('Hello Hono!'));
-    app.route('/api/v1', api); 
+    app.route('/api/v1', api);
 
     // Error Handling
     app.notFound((c) => {
@@ -55,7 +55,7 @@ function configureServer() {
 }
 
 function startServer(app: Hono) {
-    const port = 3000;
+    const port = 4000;
     console.log(`Server is running on port ${port}`);
 
     const server = serve({
@@ -69,7 +69,7 @@ function startServer(app: Hono) {
 }
 
 async function start() {
-    await connectToDatabase();
+    // await connectToDatabase();
     const app = configureServer();
     startServer(app);
 }

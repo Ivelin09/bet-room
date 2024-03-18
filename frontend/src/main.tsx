@@ -5,7 +5,7 @@ import { ThemeProvider } from 'next-themes';
 import { NextUIProvider } from '@nextui-org/react';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-	<ThemeProvider defaultTheme='dark'>
+	<ThemeProvider defaultTheme='light'>
 		<NextUIProvider>
 			<App />
 		</NextUIProvider>
