@@ -17,7 +17,7 @@ const Home = () => {
 		>
 			{/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
 			<div className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold ">
-				<Card className="sm:w-2/6 w-full py-2">
+				<Card className="sm:w-2/12 w-full py-2 ">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
 							<p className="text-3xl uppercase ">10 odds</p>
@@ -66,7 +66,7 @@ const Home = () => {
 						</div>
 					</CardFooter>
 				</Card>
-				<Card className="sm:w-2/6 w-full py-2">
+				<Card className="sm:w-2/12 w-full py-2">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
 							<p className="text-3xl uppercase ">20 odds</p>
@@ -114,7 +114,7 @@ const Home = () => {
 						</div>
 					</CardFooter>
 				</Card>
-				<Card className="sm:w-2/6 w-full py-2">
+				<Card className="sm:w-2/12 w-full py-2">
 					<CardBody className="flex flex-col gap-4">
 						<div className="flex flex-col justify-center items-center">
 							<p className="text-3xl uppercase ">50 odds</p>

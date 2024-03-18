@@ -34,7 +34,7 @@ function configureServer() {
 
     // Routes
     app.get('/', (c) => c.text('Hello Hono!'));
-    app.route('/api/v1', api);
+    app.route('/api/v1', api); 
 
     // Error Handling
     app.notFound((c) => {

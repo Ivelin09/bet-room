@@ -8,12 +8,14 @@
     "bcrypt": "^5.1.1",
     "hono": "^4.1.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.2.2"
+    "mongoose": "^8.2.2",
+    "nodemailer": "^6.9.12"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.11.17",
+    "@types/nodemailer": "^6.4.14",
     "tsx": "^3.12.2"
   }
 }
