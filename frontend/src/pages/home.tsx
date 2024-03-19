@@ -1,18 +1,15 @@
 import {
-	Card,
-	CardBody,
-	CardFooter,
 	Link,
-	Button,
 	Divider,
     useDisclosure,
 } from '@nextui-org/react';
 import { CardComponent } from '../components/CardComponent';
-import { Hero } from '../components/Hero';
 import { useState } from 'react';
 import Paypal from '../components/Paypal';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router-dom';
+import AccordionComponent from '../components/Accordion';
+import HelloSection from '../components/HelloSection';
 
 const Home = () => {
 	const [checkout, setCheckout] = useState<boolean>(false);
@@ -28,6 +25,9 @@ const Home = () => {
 			{/* <Hero></Hero> */}
 			{/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
             <Header />
+			<HelloSection />
+			<AccordionComponent />
+
 			<div className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold ">
 				<CardComponent
 					title="10"
