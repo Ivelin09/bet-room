@@ -7,15 +7,24 @@ import {
     NavbarItem,
     NavbarMenu,
     NavbarMenuItem,
+    NavbarMenuToggle,
 } from '@nextui-org/react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
     const menuItems = ['Features', 'Customers', 'Integrations'];
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navigate = useNavigate();
 
     return (
-        <Navbar isBordered position='static'>
+        <Navbar isBordered position='static' onMenuOpenChange={setIsMenuOpen}>
+            <NavbarContent>
+                <NavbarMenuToggle
+                    aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+                    className='sm:hidden'
+                />
+            </NavbarContent>
             <NavbarBrand onClick={() => navigate('/')}>
                 <p className='font-bold cursor-pointer text-inherit'>BETROOM</p>
             </NavbarBrand>
