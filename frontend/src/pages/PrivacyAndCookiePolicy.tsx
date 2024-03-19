@@ -1,7 +1,10 @@
 import { Link } from '@nextui-org/react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const PrivacyAndCookiePolicy = () => {
+	const navigate = useNavigate();
+
 	return (
 		<div className="sm:w-[1170px] md:w-[80%] w-[90%] mx-auto py-[60px] ">
 			<div className="flex justify-center items-center w-full mb-[55px] ">
@@ -19,7 +22,7 @@ const PrivacyAndCookiePolicy = () => {
 				<p>
 					We, <strong>Bet Room LTD</strong> (registered at ul.
 					Orhideya 24, et. 4, 9010 Varna, Bulgaria and operating as “
-					<LinkComponent />
+					<HomeLink />
 					“), are committed to protecting your privacy and personal
 					data. Personal data is any information about you that can be
 					used to identify you, or make possible to identify you.
@@ -27,7 +30,7 @@ const PrivacyAndCookiePolicy = () => {
 				<p>
 					This Privacy and Cookie Policy (Privacy Policy) details the
 					steps we take to protect your personal information when you
-					use <LinkComponent />. The site is our service. This Privacy
+					use <HomeLink />. The site is our service. This Privacy
 					Policy explains what information of yours will be collected
 					by the site when you use the Site Service, how the
 					information will be used, and how you can control the
@@ -46,7 +49,7 @@ const PrivacyAndCookiePolicy = () => {
 					exercise your rights guaranteed by EU Data Protection Law
 					and as explained in this Privacy and Cookie Policy. Taking
 					into account that we determine the purposes and means of
-					processing personal data on <LinkComponent /> we are legally
+					processing personal data on <HomeLink /> we are legally
 					considered as a data controller over your personal data on
 					this website. Being a data controller provides us with the
 					opportunity to process your personal data, but also
@@ -72,8 +75,9 @@ const PrivacyAndCookiePolicy = () => {
 				<p>The personal information we collect from you may include:</p>
 				<List>
 					<li>
-						any information you provide to us if you contact us,
-						such as your name, email address, etc.;
+						any information you provide to us if you{' '}
+						<ContactLink>contact us</ContactLink>, such as your
+						name, email address, etc.;
 					</li>
 					<li>
 						any information you provide to us if you fill out a form
@@ -492,13 +496,13 @@ const PrivacyAndCookiePolicy = () => {
 					communications promoting third party products and services
 					or where you have consented to us passing on your details to
 					third parties for marketing purposes, you have a right to
-					withdraw that consent. You can withdraw your consent by
-					contact us. This will not affect or undo any instances where
-					we have already lawfully shared your information prior to
-					you withdrawing your consent. You can also opt-out of
-					receiving marketing communications from us by clicking on
-					the unsubscribe link at the bottom of such marketing
-					communications.
+					withdraw that consent. You can withdraw your consent by{` `}
+					<ContactLink>contact us</ContactLink>. This will not affect
+					or undo any instances where we have already lawfully shared
+					your information prior to you withdrawing your consent. You
+					can also opt-out of receiving marketing communications from
+					us by clicking on the unsubscribe link at the bottom of such
+					marketing communications.
 				</p>
 				<p>
 					If you are unsure about your rights or are concerned about
@@ -507,19 +511,19 @@ const PrivacyAndCookiePolicy = () => {
 				</p>
 				<p>
 					{' '}
-					you contact us in relation to your rights we will do our
-					best to accommodate your request or objection. Please note,
-					however, that not all rights are absolute. Sometimes other
-					legal obligations or third-party rights will take
-					precedence.
+					you <ContactLink>contact us</ContactLink> in relation to
+					your rights we will do our best to accommodate your request
+					or objection. Please note, however, that not all rights are
+					absolute. Sometimes other legal obligations or third-party
+					rights will take precedence.
 				</p>
 				<p>
 					If you request a copy of personal data that we hold about
 					you we will require proof of your identity. You can help us
 					to maintain the accuracy of your information by notifying us
-					of any change. Please contact us if you would have any
-					queries about, or would like to enforce, your rights set out
-					above.
+					of any change. Please <ContactLink>contact us</ContactLink>{' '}
+					if you would have any queries about, or would like to
+					enforce, your rights set out above.
 				</p>
 				<Title>Grounds for Processing</Title>
 				<p>
@@ -579,9 +583,9 @@ const PrivacyAndCookiePolicy = () => {
 				<Title>Contact Us</Title>
 				<p>
 					If you have questions regarding this policy or our handling
-					of your personal information, please contact us here. We
-					will promptly address your concern and strive to reach a
-					satisfactory resolution.
+					of your personal information, please contact us{' '}
+					<ContactLink>here</ContactLink>. We will promptly address
+					your concern and strive to reach a satisfactory resolution.
 				</p>
 			</div>
 		</div>
@@ -590,7 +594,7 @@ const PrivacyAndCookiePolicy = () => {
 
 export default PrivacyAndCookiePolicy;
 
-const LinkComponent = () => {
+const HomeLink = () => {
 	const navigate = useNavigate();
 
 	return (
@@ -603,6 +607,25 @@ const LinkComponent = () => {
 				onPress={() => navigate('/')}
 			>
 				<strong>BetRoom.com</strong>
+			</Link>
+			{` `}
+		</>
+	);
+};
+
+const ContactLink = ({ children }: { children: React.ReactNode }) => {
+	const navigate = useNavigate();
+
+	return (
+		<>
+			{` `}
+			<Link
+				color="foreground"
+				className="cursor-pointer"
+				underline="hover"
+				onPress={() => navigate('/contact-us')}
+			>
+				<strong>{children}</strong>
 			</Link>
 			{` `}
 		</>

@@ -17,11 +17,11 @@ const TandC = () => {
 				<p>
 					All our customers must be over 18 years of age to place a
 					bet and use our services.
-					<LinkComponent />
+					<HomeLink />
 					reserves the right to ask for proof of age from any customer
 					and suspend their account until satisfactory documentation
 					is provided.
-					<LinkComponent />
+					<HomeLink />
 					takes its responsibilities in respect of underage and
 					responsible gambling very seriously.
 				</p>
@@ -30,16 +30,17 @@ const TandC = () => {
 					basis only, and while all possible care and effort are
 					placed into ensuring the correct recording and reporting of
 					results small human errors may occur. Feel free to contact
-					our team if you believe any of the figures are incorrect and
-					we will double check as quickly as possible.
+					<ContactLink>our team</ContactLink> if you believe any of
+					the figures are incorrect and we will double check as
+					quickly as possible.
 				</p>
 				<p>
-					<LinkComponent /> is not responsible for your losses and
-					wins during the cooperation with you in any form.
+					<HomeLink /> is not responsible for your losses and wins
+					during the cooperation with you in any form.
 				</p>
 				<p>
-					<LinkComponent /> is a platform for betting tips and advices
-					and can’t guarantee you any form of profit and money.
+					<HomeLink /> is a platform for betting tips and advices and
+					can’t guarantee you any form of profit and money.
 				</p>
 				<p>
 					Your betting strategy is only your responsibility and we
@@ -53,14 +54,13 @@ const TandC = () => {
 					the account of our clients and users.
 				</p>
 				<p>
-					<LinkComponent /> is not responsible for unauthorized
-					payments and can´t refund the money of it, even if the buyer
-					claims it.
+					<HomeLink /> is not responsible for unauthorized payments
+					and can´t refund the money of it, even if the buyer claims
+					it.
 				</p>
 				<p>
-					All of the information on <LinkComponent /> can be changed
-					at any time without the need to inform the users or anyone
-					else.
+					All of the information on <HomeLink /> can be changed at any
+					time without the need to inform the users or anyone else.
 				</p>
 				<p>
 					Our tips and pieces of advice can only help you to improve
@@ -84,12 +84,11 @@ const TandC = () => {
 				<p>There is no free replacement for our services.</p>
 				<p>There is no free of charge trial of our services.</p>
 				<p>
-					When using <LinkComponent /> website now or at any time in
-					the future, you agree with these terms and conditions. If
-					you do not agree to our terms, please exit our web-page. We
-					reserve the right to change these terms at any time and you
-					should check regularly to ensure that you are aware of all
-					changes.
+					When using <HomeLink /> website now or at any time in the
+					future, you agree with these terms and conditions. If you do
+					not agree to our terms, please exit our web-page. We reserve
+					the right to change these terms at any time and you should
+					check regularly to ensure that you are aware of all changes.
 				</p>
 			</div>
 		</div>
@@ -98,7 +97,7 @@ const TandC = () => {
 
 export default TandC;
 
-const LinkComponent = () => {
+const HomeLink = () => {
 	const navigate = useNavigate();
 
 	return (
@@ -111,6 +110,25 @@ const LinkComponent = () => {
 				onPress={() => navigate('/')}
 			>
 				<strong>BetRoom.com</strong>
+			</Link>
+			{` `}
+		</>
+	);
+};
+
+const ContactLink = ({ children }: { children: React.ReactNode }) => {
+	const navigate = useNavigate();
+
+	return (
+		<>
+			{` `}
+			<Link
+				color="foreground"
+				className="cursor-pointer"
+				underline="hover"
+				onPress={() => navigate('/contact-us')}
+			>
+				<strong>{children}</strong>
 			</Link>
 			{` `}
 		</>

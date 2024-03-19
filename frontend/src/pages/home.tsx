@@ -4,11 +4,10 @@ import {
     useDisclosure,
 } from '@nextui-org/react';
 import { CardComponent } from '../components/CardComponent';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Paypal from '../components/Paypal';
 import Header from '../components/Header';
-import { useNavigate } from 'react-router-dom';
-import AccordionComponent from '../components/Accordion';
+import AccordionComponent from '../components/AccordionComponent';
 import HelloSection from '../components/HelloSection';
 
 const Home = () => {
@@ -18,17 +17,23 @@ const Home = () => {
         title: '',
         price: 0,
     });
-    const navigate = useNavigate();
+
+	const cardsRef = useRef<HTMLInputElement | null>(null);
+
+	const scrollUseRef = () => {
+		cardsRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+	}
+
 
 	return (
 		<div>
 			{/* <Hero></Hero> */}
 			{/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
-            <Header />
+            <Header scrollUseRef={scrollUseRef} />
 			<HelloSection />
 			<AccordionComponent />
 
-			<div className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold ">
+			<div ref={cardsRef} className="flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold ">
 				<CardComponent
 					title="10"
 					text="3 - 4 matches combo"

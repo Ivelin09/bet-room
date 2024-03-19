@@ -15,7 +15,7 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     return (
-        <Navbar isBordered position='static'>
+        <Navbar isBordered>
             <NavbarBrand onClick={() => navigate('/')}>
                 <p className='font-bold cursor-pointer text-inherit'>BETROOM</p>
             </NavbarBrand>

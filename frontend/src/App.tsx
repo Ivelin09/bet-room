@@ -6,6 +6,8 @@ import NavBar from './components/NavBar';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
 import { ContactForm } from './components/ContactForm';
 import Footer from './components/Footer';
+import ContactUs from './pages/contactUs';
+import AboutUs from './pages/aboutUs';
 
 const Home = lazy(() => import('./pages/home'));
 const PrivacyAndCookiePolicy = lazy(() => import('./pages/PrivacyAndCookiePolicy'));
@@ -20,7 +22,7 @@ const App = () => {
                 <Suspense fallback={<p>Loading...</p>}>
                     <Routes>
                         <Route path='/' element={<Home />} />
-                        <Route path='/Contact' element={<ContactForm />} />
+                        <Route path='/contact-us' element={<ContactUs />} />
                         <Route
                             path='/terms-and-conditions'
                             element={<TandC />}
@@ -28,6 +30,10 @@ const App = () => {
                         <Route
                             path='/privacy-and-cookie-policy'
                             element={<PrivacyAndCookiePolicy />}
+                        />
+                        <Route 
+                            path='/about-us'
+                            element={<AboutUs />}
                         />
                     </Routes>
                 </Suspense>

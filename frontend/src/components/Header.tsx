@@ -1,6 +1,11 @@
 import { Button } from '@nextui-org/react';
+import { useNavigate } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({scrollUseRef}: {scrollUseRef: () => void}) => {
+	const navigate = useNavigate();
+
+	
+
 	return (
 		<div
 			className="flex items-start p-8 flex-col justify-center w-full h-[60vh] bg-auto bg-no-repeat bg-cover"
@@ -13,16 +18,15 @@ const Header = () => {
 				Your Gateway to Long-Term Profit in Sports Betting
 			</h1>
 			<h4 className="text-white mt-2">
-				nqkyw pulnej Lorem ipsum dolor sit, amet consectetur adipisicing
-				elit. Eos itaque consequuntur minus non iste vel impedit omnis
-				quos quam culpa.
+				Your ultimate destination for guaranteed profitability in the world of sports wagering
 			</h4>
 			<div className='flex flex-row gap-2 mt-4'>
 				<Button
 					variant="shadow"
 					color="primary"
                     radius='full'
-					className="uppercase"
+					className='uppercase'
+					onPress={scrollUseRef}
 				>
 					check the oods
 				</Button>
@@ -31,6 +35,7 @@ const Header = () => {
 					color="primary"
                     radius='full'
 					className="uppercase"
+					onPress={() => navigate('/about-us')}
 				>
 					intro
 				</Button>
