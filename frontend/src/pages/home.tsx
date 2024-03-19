@@ -55,61 +55,6 @@ const Home = () => {
 				></CardComponent>
 				{checkout && <Paypal isOpen={isOpen} onOpenChange={onOpenChange} checkout={checkout} setCheckout={setCheckout} cartItem={cartItem} />}
 			</div>
-			<div className="flex flex-row gap-2 justify-center items-center w-full mt-4">
-				<Link
-					color="primary"
-					underline="hover"
-					className="font-bold uppercase text-lg cursor-pointer"
-				>
-					about us
-				</Link>
-				<Divider
-					orientation="vertical"
-					className="h-6"
-				/>
-				<Link
-					color="primary"
-					underline="hover"
-                    onPress={() => navigate('/terms-and-conditions')}
-					className="font-bold uppercase text-lg cursor-pointer"
-				>
-					T & C
-				</Link>
-				<Divider
-					orientation="vertical"
-					className="h-6"
-				/>
-				<Link
-					color="primary"
-					underline="hover"
-					className="font-bold uppercase text-lg cursor-pointer"
-				>
-					no refund policy
-				</Link>
-				<Divider
-					orientation="vertical"
-					className="h-6"
-				/>
-				<Link
-					color="primary"
-					underline="hover"
-                    onClick={() => navigate('/privacy-and-cookie-policy')}
-					className="font-bold uppercase text-lg cursor-pointer"
-				>
-					privacy
-				</Link>
-				<Divider
-					orientation="vertical"
-					className="h-6"
-				/>
-				<Link
-					color="primary"
-					underline="hover"
-					className="font-bold uppercase text-lg cursor-pointer"
-				>
-					contact us
-				</Link>
-			</div>
 		</div>
 	);
 };
