@@ -28,7 +28,7 @@ export const loginUser = async (username: string, password: string) => {
     return api.post(endpoints.login, { username, password });
 };
 
-export const getAllArhives = async () => {
+export const getAllArchives = async () => {
     return api.get(endpoints.getArchives);
 };
 
