@@ -4,7 +4,8 @@ const endpoints = {
     login: '/auth/login',
     getArchives: '/archives/',
     addArchives: '/archives/add',
-    removeArhive: '/archives/remove'
+    removeArhive: '/archives/remove',
+    sendMail: '/support/mail'
 };
 
 export const removeArchive = async (
@@ -30,3 +31,7 @@ export const loginUser = async (username: string, password: string) => {
 export const getAllArhives = async () => {
     return api.get(endpoints.getArchives);
 };
+
+export const sendMail = async (name: string, email: string, message: string) => {
+    return api.post(endpoints.sendMail, {name, email, message})
+}

@@ -1,5 +1,4 @@
 import { Context, Hono } from 'hono';
-import { sendMail } from '../../util/nodemailer';
 import { checkAuthorization } from '../services/auth';
 import Archive from '../../models/archive';
 
@@ -13,10 +12,10 @@ export interface Payload {
     result: boolean;
 }
 
-router.get('/', async (c : Context) => {
+router.get('/', async (c: Context) => {
     const archives = await Archive.find();
     return c.json(archives, 200);
-})
+});
 // router to handle user login
 router.post('/add', async (c: Context) => {
     checkAuthorization(c);
@@ -30,7 +29,7 @@ router.post('/remove', async (c: Context) => {
     checkAuthorization(c);
     const { id } = await c.req.json();
     await Archive.findByIdAndDelete(id);
-    return c.json("Success", 200);
+    return c.json('Success', 200);
 });
 
 export default router;
