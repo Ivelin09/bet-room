@@ -14,14 +14,14 @@ export const Archive = () => {
         {
             date: '2021-10-10',
             match: 'Real Madrid vs Barcelona',
-            tip: '1',
+            tip: 'over 2 goals',
             odd: 1.5,
             result: true,
         },
         {
             date: '2021-10-11',
             match: 'Liverpool vs Manchester United',
-            tip: 'X',
+            tip: 'draw',
             odd: 2.0,
             result: false,
         },
