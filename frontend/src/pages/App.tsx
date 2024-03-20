@@ -10,6 +10,7 @@ import PrivacyAndCookiePolicy from './PrivacyAndCookiePolicy.page';
 import TandC from './T&C.page';
 import AboutUs from './aboutUs';
 import ContactUs from './contactUs';
+import { ArchivePage } from './Archive.page';
 // import TandC from './pages/t&c';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
 
@@ -36,6 +37,9 @@ const App = () => {
                                 element={<PrivacyAndCookiePolicy />}
                             />
                             <Route path='/about-us' element={<AboutUs />} />
+                            <Route path='/archive' element={<ArchivePage />} />
+                            <Route path='*' element={<Home />} />
+
                         </Routes>
                     </Suspense>
                     <Footer />
