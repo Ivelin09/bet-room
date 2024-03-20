@@ -1,29 +1,20 @@
 'use strict';
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from '../components/NavBar';
+import NavBar from './components/NavBar';
 // import TandC from './pages/t&c';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
-<<<<<<< HEAD:frontend/src/App.tsx
-import { ContactForm } from './components/ContactForm';
+// import { ContactForm } from './components/ContactForm';
 import Footer from './components/Footer';
 import ContactUs from './pages/contactUs';
 import AboutUs from './pages/aboutUs';
+import { AdminPage } from './pages/Admin.page';
 
-const Home = lazy(() => import('./pages/home'));
-const PrivacyAndCookiePolicy = lazy(() => import('./pages/PrivacyAndCookiePolicy'));
-const TandC = lazy(() => import('./pages/t&c'));
-=======
-import { ContactForm } from '../components/ContactForm';
-import Footer from '../components/Footer';
-import { AdminPage } from './Admin.page';
->>>>>>> 9d80020ec04933c7554612816ade9556dddfc117:frontend/src/pages/App.tsx
-
-const Home = lazy(() => import('./Home.page'));
+const Home = lazy(() => import('./pages/Home.page'));
 const PrivacyAndCookiePolicy = lazy(
-    () => import('./PrivacyAndCookiePolicy.page')
+    () => import('./pages/PrivacyAndCookiePolicy.page')
 );
-const TandC = lazy(() => import('./T&C.page'));
+const TandC = lazy(() => import('./pages/T&C.page'));
 
 const App = () => {
     return (

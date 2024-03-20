@@ -1,0 +1,17 @@
+.gradienta {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #c09230 30%, #ba9540 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #a88638 62.5%, #9e7e34 100%);
+}
+
+.manqk {
+    /* background-color: #D7D7D7; */
+    background: radial-gradient(ellipse farthest-corner at right bottom, #D7D7D7 0%, #b0aeae 8%, #D7D7D7 30%, #D7D7D7 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #b0aeae 8%, #D7D7D7 25%, #878181 62.5%, #D7D7D7 100%);
+}
+
+.manqk2 {
+    background: linear-gradient(135deg, #BD90E5, #43089E);
+}
+
+/* radial-gradient(ellipse farthest-corner at right bottom, #d7d7d75b 0%, #d2d2d296 8%, #d7d7d779 30%, #d7d7d795 40%, transparent 80%),
+     */

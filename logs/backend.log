@@ -45,3 +45,47 @@
 2024-03-20T18:48:45: (Use `node --trace-deprecation ...` to show where the warning was created)
 2024-03-20T18:48:45: Connected to the database
 2024-03-20T18:48:45: Server is running on port 4000
+2024-03-20T19:05:45:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:05:45:   --> OPTIONS /api/v1/archives/ [32m204[0m 9ms
+2024-03-20T19:05:45:   <-- GET /api/v1/archives/
+2024-03-20T19:05:45:   --> GET /api/v1/archives/ [33m404[0m 2ms
+2024-03-20T19:05:58:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:05:58:   --> OPTIONS /api/v1/archives/ [32m204[0m 2ms
+2024-03-20T19:05:58:   <-- GET /api/v1/archives/
+2024-03-20T19:05:58:   --> GET /api/v1/archives/ [33m404[0m 2ms
+2024-03-20T19:06:08:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:06:08:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:06:08:   <-- GET /api/v1/archives/
+2024-03-20T19:06:08:   --> GET /api/v1/archives/ [33m404[0m 1ms
+2024-03-20T19:07:45:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:07:45:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:07:45:   <-- GET /api/v1/archives/
+2024-03-20T19:07:45:   --> GET /api/v1/archives/ [33m404[0m 1ms
+2024-03-20T19:09:25:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:09:25:   --> OPTIONS /api/v1/archives/ [32m204[0m 3ms
+2024-03-20T19:09:25:   <-- GET /api/v1/archives/
+2024-03-20T19:09:25:   --> GET /api/v1/archives/ [33m404[0m 1ms
+2024-03-20T19:09:45:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:09:45:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:09:45:   <-- GET /api/v1/archives/
+2024-03-20T19:09:45:   --> GET /api/v1/archives/ [33m404[0m 0ms
+2024-03-20T19:09:59:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:09:59:   --> OPTIONS /api/v1/archives/ [32m204[0m 3ms
+2024-03-20T19:09:59:   <-- GET /api/v1/archives/
+2024-03-20T19:09:59:   --> GET /api/v1/archives/ [33m404[0m 0ms
+2024-03-20T19:10:59:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:10:59:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:10:59:   <-- GET /api/v1/archives/
+2024-03-20T19:10:59:   --> GET /api/v1/archives/ [33m404[0m 1ms
+2024-03-20T19:11:38:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:11:38:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:11:38:   <-- GET /api/v1/archives/
+2024-03-20T19:11:38:   --> GET /api/v1/archives/ [33m404[0m 1ms
+2024-03-20T19:12:09:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:12:09:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:12:09:   <-- GET /api/v1/archives/
+2024-03-20T19:12:09:   --> GET /api/v1/archives/ [33m404[0m 0ms
+2024-03-20T19:13:41:   <-- OPTIONS /api/v1/archives/
+2024-03-20T19:13:41:   --> OPTIONS /api/v1/archives/ [32m204[0m 1ms
+2024-03-20T19:13:41:   <-- GET /api/v1/archives/
+2024-03-20T19:13:41:   --> GET /api/v1/archives/ [33m404[0m 7ms

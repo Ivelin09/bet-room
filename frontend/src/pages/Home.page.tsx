@@ -1,12 +1,13 @@
 import { Link, Divider, useDisclosure } from '@nextui-org/react';
 import { CardComponent } from '../components/CardComponent';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Paypal from '../components/Paypal';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router-dom';
-import AccordionComponent from '../components/Accordion';
 import HelloSection from '../components/HelloSection';
 import { Archive } from '../components/Archive';
+import AccordionComponent from '../components/AccordionComponent';
+import '../styles/homeStyles.css';
 
 const Home = () => {
     const [checkout, setCheckout] = useState<boolean>(false);
@@ -16,18 +17,19 @@ const Home = () => {
         price: 0,
     });
     const navigate = useNavigate();
+    const scrollRef = useRef();
+
+    const scrollUseRef = () => {
+        scrollRef.current.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
 
     return (
         <div>
             {/* <Hero></Hero> */}
             {/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
-            <Header />
+            <Header scrollUseRef={scrollUseRef} />
             <HelloSection />
-            <AccordionComponent />
-            <Divider />
-            <Archive />
-
-            <div className='flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold '>
+            <div ref={scrollRef} className='flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold '>
                 <CardComponent
                     title='10'
                     text='3 - 4 matches combo'
@@ -35,6 +37,7 @@ const Home = () => {
                     setCheckout={setCheckout}
                     onOpen={onOpen}
                     setCartItem={setCartItem}
+                    color='manqk'
                 ></CardComponent>
                 <CardComponent
                     title='20'
@@ -43,6 +46,7 @@ const Home = () => {
                     setCheckout={setCheckout}
                     onOpen={onOpen}
                     setCartItem={setCartItem}
+                    color='gradienta'
                 ></CardComponent>
                 <CardComponent
                     title='50'
@@ -51,6 +55,7 @@ const Home = () => {
                     setCheckout={setCheckout}
                     onOpen={onOpen}
                     setCartItem={setCartItem}
+                    color='manqk2'
                 ></CardComponent>
                 {checkout && (
                     <Paypal
@@ -62,6 +67,10 @@ const Home = () => {
                     />
                 )}
             </div>
+            <AccordionComponent />
+            {/* <Divider /> */}
+            {/* <Archive /> */}
+
         </div>
     );
 };

@@ -6,6 +6,7 @@ import {
     Button,
     Divider,
 } from '@nextui-org/react';
+import '../styles/homeStyles.css';
 
 export const CardComponent = ({
     title,
@@ -14,6 +15,7 @@ export const CardComponent = ({
     setCheckout,
     onOpen,
     setCartItem,
+    color,
 }: {
     title: string;
     text: string;
@@ -21,11 +23,12 @@ export const CardComponent = ({
     setCheckout: React.Dispatch<React.SetStateAction<boolean>>;
     onOpen: () => void;
     setCartItem: React.Dispatch<React.SetStateAction<{title: string, price: number}>>;
+    color: string;
 }) => {
     return (
 
         
-        <Card className='sm:w-2/12 w-full py-2 '>
+        <Card className={`sm:w-2/12 w-full py-2 ${color} text-white`}>
             <CardBody className='flex flex-col gap-4'>
                 <div className='flex flex-col justify-center items-center'>
                     <p className='text-3xl uppercase '>{title} odds</p>
@@ -35,16 +38,16 @@ export const CardComponent = ({
                     orientation='horizontal'
                     className='bg-white text-white'
                 />
-                <div className='flex flex-col justify-center items-center text-md'>
+                <div className='flex flex-col justify-center items-start text-md'>
                     <p>{text}</p>
                     <p>based on 1x2 0/4</p>
                     <p>AH, BTTS and etc.</p>
                     <p>Suitable for Beginners</p>
                     <p>24/7 service</p>
                     <p>Genuine Activities</p>
-                    <Link className='font-bold text-red-600 uppercase text-lg cursor-pointer'>
+                    {/* <Link className='font-bold text-red-600 uppercase text-lg cursor-pointer'>
                         no refund!
-                    </Link>
+                    </Link> */}
                 </div>
                 <Divider
                     orientation='horizontal'
@@ -56,15 +59,15 @@ export const CardComponent = ({
             <CardFooter>
                 <div className='flex flex-col gap-3 justify-center items-center w-full'>
                     <Button
+                        variant='ghost'
                         color='primary'
-                        variant='shadow'
                         onClick={() => {
                             setCheckout(true);
                             onOpen();
                             setCartItem({title: title, price: price});
                         }}
                         radius='lg'
-                        className='uppercase'
+                        className='uppercase '
                     >
                         buy now {price}€
                     </Button>
