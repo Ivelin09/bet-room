@@ -34,8 +34,10 @@ export const LoginPage = () => {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
+                height: '70vh', // Set the height of the div to 100% of the viewport height
             }}
         >
+            <h1 className='text-3xl mb-5'>Login</h1>
             <Input
                 type='username'
                 label='Username'
