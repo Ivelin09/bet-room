@@ -5,6 +5,7 @@ import {
     TableBody,
     TableRow,
     TableCell,
+    getKeyValue,
 } from '@nextui-org/react';
 import { useCallback, useEffect, useState } from 'react';
 import { getAllArchives } from '../api/requests';
@@ -16,15 +17,24 @@ export const Archive = () => {
             match: 'Real Madrid vs Barcelona',
             tip: 'over 2 goals',
             odd: 1.5,
-            result: true,
+            result: 'lost',
+            _id: '1232',
         },
         {
             date: '2021-10-11',
             match: 'Liverpool vs Manchester United',
             tip: 'draw',
             odd: 2.0,
-            result: false,
+            result: 'won',
+            _id: '123',
         },
+    ];
+    const columns = [
+        { key: 'date', label: 'DATE' },
+        { key: 'match', label: 'MATCH' },
+        { key: 'tip', label: 'TIP' },
+        { key: 'odd', label: 'ODD' },
+        { key: 'result', label: 'RESULT' },
     ];
 
     const [archives, setArchives] = useState([]); // Adjusted for typing below
@@ -49,32 +59,31 @@ export const Archive = () => {
         tip: string;
         odd: number;
         result: boolean;
+        _id: string;
     }
 
     return (
-        <div>
-            <h1 className=' justify-center'>Archive</h1>
+        <div className='w-[80%] mx-auto'>
+            <h1 className='text-center'>Archive</h1>
 
             <Table aria-label='Archive table'>
                 <TableHeader>
-                    <TableColumn>DATE</TableColumn>
-                    <TableColumn>MATCH</TableColumn>
-                    <TableColumn>TIP</TableColumn>
-                    <TableColumn>ODD</TableColumn>
-                    <TableColumn>RESULT</TableColumn>
-                </TableHeader>
-                <TableBody>
-                    {hardCoded.map((archive: Archive) => (
-                        <TableRow key={archive.date}>
-                            <TableCell>{archive.date}</TableCell>
-                            <TableCell>{archive.match}</TableCell>
-                            <TableCell>{archive.tip}</TableCell>
-                            <TableCell>{archive.odd}</TableCell>
-                            <TableCell>
-                                {archive.result ? 'Won' : 'Lost'}
-                            </TableCell>
-                        </TableRow>
+                    {columns.map((column) => (
+                        <TableColumn key={column.key}>
+                            {column.label}
+                        </TableColumn>
                     ))}
+                </TableHeader>
+                <TableBody items={hardCoded}>
+                    {(item) => (
+                        <TableRow key={item._id}>
+                            {(columnKey) => (
+                                <TableCell>
+                                    {getKeyValue(item, columnKey)}
+                                </TableCell>
+                            )}
+                        </TableRow>
+                    )}
                 </TableBody>
             </Table>
         </div>

@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
+import App from './pages/App.tsx';
 import './index.css';
 import { ThemeProvider } from 'next-themes';
 import { NextUIProvider } from '@nextui-org/react';
