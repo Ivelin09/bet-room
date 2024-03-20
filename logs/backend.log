@@ -1,0 +1,13 @@
+2024-03-20T08:07:45: 
+2024-03-20T08:07:45: > start
+2024-03-20T08:07:45: > tsx watch src/index.ts
+2024-03-20T08:07:45: 
+2024-03-20T08:07:45: 8:07:45 AM [tsx] rerunning
+2024-03-20T08:07:46: (node:1537290) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2024-03-20T08:07:46: (Use `node --trace-deprecation ...` to show where the warning was created)
+2024-03-20T08:07:47: Connected to the database
+2024-03-20T08:07:47: Server is running on port 4000
+2024-03-20T08:09:33:   <-- GET /
+2024-03-20T08:09:33:   --> GET / [32m200[0m 6ms
+2024-03-20T08:09:33:   <-- GET /favicon.ico
+2024-03-20T08:09:33:   --> GET /favicon.ico [33m404[0m 1ms

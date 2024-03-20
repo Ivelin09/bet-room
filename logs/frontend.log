@@ -1,0 +1,254 @@
+2024-03-20T08:07:45: 
+2024-03-20T08:07:45: > frontend@0.0.0 dev
+2024-03-20T08:07:45: > vite --port 5000 --host
+2024-03-20T08:07:45: 
+2024-03-20T08:07:46: 
+2024-03-20T08:07:46: > frontend@0.0.0 dev
+2024-03-20T08:07:46: > vite --port 5000 --host
+2024-03-20T08:07:46: 
+2024-03-20T08:07:47: 
+2024-03-20T08:07:47: > frontend@0.0.0 dev
+2024-03-20T08:07:47: > vite --port 5000 --host
+2024-03-20T08:07:47: 
+2024-03-20T08:07:47: 
+2024-03-20T08:07:47:   VITE v5.1.6  ready in 228 ms
+2024-03-20T08:07:47: 
+2024-03-20T08:07:47:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:07:47:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:07:47:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:07:48: 
+2024-03-20T08:07:48: > frontend@0.0.0 dev
+2024-03-20T08:07:48: > vite --port 5000 --host
+2024-03-20T08:07:48: 
+2024-03-20T08:07:49: 
+2024-03-20T08:07:49: > frontend@0.0.0 dev
+2024-03-20T08:07:49: > vite --port 5000 --host
+2024-03-20T08:07:49: 
+2024-03-20T08:07:49: 
+2024-03-20T08:07:49: > frontend@0.0.0 dev
+2024-03-20T08:07:49: > vite --port 5000 --host
+2024-03-20T08:07:49: 
+2024-03-20T08:07:50: 
+2024-03-20T08:07:50:   VITE v5.1.6  ready in 249 ms
+2024-03-20T08:07:50: 
+2024-03-20T08:07:50:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:07:50:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:07:50:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:07:50: 
+2024-03-20T08:07:50: > frontend@0.0.0 dev
+2024-03-20T08:07:50: > vite --port 5000 --host
+2024-03-20T08:07:50: 
+2024-03-20T08:07:51: 
+2024-03-20T08:07:51:   VITE v5.1.6  ready in 254 ms
+2024-03-20T08:07:51: 
+2024-03-20T08:07:51:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:07:51:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:07:51:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:07:51: 
+2024-03-20T08:07:51: > frontend@0.0.0 dev
+2024-03-20T08:07:51: > vite --port 5000 --host
+2024-03-20T08:07:51: 
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52:   VITE v5.1.6  ready in 207 ms
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:07:52:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:07:52:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52: > frontend@0.0.0 dev
+2024-03-20T08:07:52: > vite --port 5000 --host
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52:   VITE v5.1.6  ready in 247 ms
+2024-03-20T08:07:52: 
+2024-03-20T08:07:52:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:07:52:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:07:52:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:08:08: 
+2024-03-20T08:08:08: > frontend@0.0.0 dev
+2024-03-20T08:08:08: > vite --port 5000 --host
+2024-03-20T08:08:08: 
+2024-03-20T08:08:08: 
+2024-03-20T08:08:08:   VITE v5.1.6  ready in 187 ms
+2024-03-20T08:08:08: 
+2024-03-20T08:08:08:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:08:08:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:08:08:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T08:08:18: 
+2024-03-20T08:08:18: > frontend@0.0.0 dev
+2024-03-20T08:08:18: > vite --port 5000 --host
+2024-03-20T08:08:18: 
+2024-03-20T08:08:18: 
+2024-03-20T08:08:18:   VITE v5.1.6  ready in 160 ms
+2024-03-20T08:08:18: 
+2024-03-20T08:08:18:   ➜  Local:   http://localhost:5000/
+2024-03-20T08:08:18:   ➜  Network: http://192.168.0.101:5000/
+2024-03-20T08:08:18:   ➜  Network: http://10.123.105.1:5000/
+2024-03-20T10:00:23: 10:00:23 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:00:44: 10:00:44 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:00:47: 10:00:47 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:00: 10:01:00 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:15: 10:01:15 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:19: 10:01:19 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:21: 10:01:21 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:37: 10:01:37 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:38: 10:01:38 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:40: 10:01:40 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:44: 10:01:44 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:01:46: 10:01:46 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:25:24: 10:25:24 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:25:25: 10:25:25 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:25:36: 10:25:36 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:12: 10:27:12 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:16: 10:27:16 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:17: 10:27:17 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:21: 10:27:21 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:24: 10:27:24 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:25: 10:27:25 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:30: 10:27:30 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:31: 10:27:31 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:34: 10:27:34 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:40: 10:27:40 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:42: 10:27:42 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:44: 10:27:44 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:46: 10:27:46 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:27:49: 10:27:49 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:01: 10:28:01 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:04: 10:28:04 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:11: 10:28:11 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:12: 10:28:12 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:17: 10:28:17 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:19: 10:28:19 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:21: 10:28:21 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:23: 10:28:23 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:26: 10:28:26 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:31: 10:28:31 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:36: 10:28:36 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:42: 10:28:42 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:43: 10:28:43 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:45: 10:28:45 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:48: 10:28:48 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:51: 10:28:51 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:54: 10:28:54 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:28:57: 10:28:57 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:00: 10:29:00 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:02: 10:29:02 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:06: 10:29:06 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:07: 10:29:07 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:09: 10:29:09 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:24: 10:29:24 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:30: 10:29:30 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:32: 10:29:32 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:34: 10:29:34 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:38: 10:29:38 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:40: 10:29:40 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:41: 10:29:41 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:45: 10:29:45 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:47: 10:29:47 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:57: 10:29:57 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:29:59: 10:29:59 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:00: 10:30:00 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:02: 10:30:02 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:05: 10:30:05 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:07: 10:30:07 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:18: 10:30:18 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:20: 10:30:20 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:22: 10:30:22 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:23: 10:30:23 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:29: 10:30:29 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:31: 10:30:31 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:33: 10:30:33 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:35: 10:30:35 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:37: 10:30:37 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:40: 10:30:40 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:43: 10:30:43 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:54: 10:30:54 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:56: 10:30:56 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:30:57: 10:30:57 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:00: 10:31:00 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:11: 10:31:11 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:13: 10:31:13 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:14: 10:31:14 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:17: 10:31:17 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:18: 10:31:18 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:19: 10:31:19 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:31:29: 10:31:29 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:32:00: 10:32:00 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:32:02: 10:32:02 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:32:57: 10:32:57 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:35:47: 10:35:47 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:36:20: 10:36:20 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:36:23: 10:36:23 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:36:32: 10:36:32 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:36:59: 10:36:59 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:37:05: 10:37:05 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:37:05: 10:37:05 AM [vite] Internal server error: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/Paypal.tsx: Unexpected token, expected "]" (39:38)
+2024-03-20T10:37:05: 
+2024-03-20T10:37:05:   37 | 			window.paypal
+2024-03-20T10:37:05:   38 | 				.Buttons({
+2024-03-20T10:37:05: > 39 | 					createOrder: (data:PaypalI['data', actions:PaypalI['actions'], err:PaypalI['err']) => {
+2024-03-20T10:37:05:      | 					                                 ^
+2024-03-20T10:37:05:   40 | 						return actions.order.create({
+2024-03-20T10:37:05:   41 | 							intent: 'CAPTURE',
+2024-03-20T10:37:05:   42 | 							purchase_units: [
+2024-03-20T10:37:05:   Plugin: vite:react-babel
+2024-03-20T10:37:05:   File: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/Paypal.tsx:39:38
+2024-03-20T10:37:05:   37 |  			window.paypal
+2024-03-20T10:37:05:   38 |  				.Buttons({
+2024-03-20T10:37:05:   39 |  					createOrder: (data:PaypalI['data', actions:PaypalI['actions'], err:PaypalI['err']) => {
+2024-03-20T10:37:05:      |                                        ^
+2024-03-20T10:37:05:   40 |  						return actions.order.create({
+2024-03-20T10:37:05:   41 |  							intent: 'CAPTURE',
+2024-03-20T10:37:05:       at constructor (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:353:19)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.raise (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3277:19)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.unexpected (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3297:16)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.expect (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3601:28)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseArrayTypeOrHigher (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8197:14)
+2024-03-20T10:37:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8242:158
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsInAllowConditionalTypesContext (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8527:14)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseTypeOperatorOrHigher (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8242:114)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseUnionOrIntersectionType (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8249:18)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseIntersectionTypeOrHigher (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8258:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseUnionOrIntersectionType (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8249:18)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseUnionTypeOrHigher (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8261:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseNonConditionalType (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8428:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseType (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8403:23)
+2024-03-20T10:37:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8397:31
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsInType (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8509:14)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.tsParseTypeAnnotation (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:8395:10)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseParenItem (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9255:42)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10350:29)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9415:20)
+2024-03-20T10:37:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:39
+2024-03-20T10:37:05:       at TypeScriptParserMixin.allowInAnd (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11936:12)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11199:28)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9415:20)
+2024-03-20T10:37:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:39
+2024-03-20T10:37:05:       at TypeScriptParserMixin.allowInAnd (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11936:12)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseObjectProperty (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11469:83)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseObjPropValue (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11494:100)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseObjPropValue (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9373:18)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parsePropertyDefinition (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11434:17)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseObjectLike (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11354:21)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10875:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T10:37:05:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T10:37:10: 10:37:10 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:37:13: 10:37:13 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css
+2024-03-20T10:37:21: 10:37:21 AM [vite] hmr update /src/components/Paypal.tsx, /src/index.css

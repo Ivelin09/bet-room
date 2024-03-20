@@ -25,6 +25,12 @@ const Paypal = ({
 	};
 }) => {
 	const paypal = useRef();
+	
+	// interface PaypalI{
+	// 	data:unknown;
+	// 	actions:{order:{create:()=>string}};
+	// 	err: Error;
+	// }
 
 	useEffect(() => {
 		if (checkout) {
@@ -66,6 +72,7 @@ const Paypal = ({
 				closeButton: 'hidden',
 			}}
 		>
+
 			<ModalContent>
 				{(onClose) => (
 					<>
