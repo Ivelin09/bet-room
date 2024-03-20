@@ -18,9 +18,7 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     return (
-<<<<<<< HEAD
-        <Navbar isBordered>
-=======
+
         <Navbar isBordered position='static' onMenuOpenChange={setIsMenuOpen}>
             <NavbarContent>
                 <NavbarMenuToggle
@@ -28,7 +26,6 @@ const NavBar = () => {
                     className='sm:hidden'
                 />
             </NavbarContent>
->>>>>>> 9d80020ec04933c7554612816ade9556dddfc117
             <NavbarBrand onClick={() => navigate('/')}>
                 <p className='font-bold cursor-pointer text-inherit'>BETROOM</p>
             </NavbarBrand>

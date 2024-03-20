@@ -4,9 +4,9 @@ import { useState } from 'react';
 import Paypal from '../components/Paypal';
 import Header from '../components/Header';
 import { useNavigate } from 'react-router-dom';
-import AccordionComponent from '../components/Accordion';
 import HelloSection from '../components/HelloSection';
 import { Archive } from '../components/Archive';
+import AccordionComponent from '../components/AccordionComponent';
 
 const Home = () => {
     const [checkout, setCheckout] = useState<boolean>(false);
@@ -21,7 +21,7 @@ const Home = () => {
         <div>
             {/* <Hero></Hero> */}
             {/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
-            <Header />
+            <Header scrollUseRef={() => {}} />
             <HelloSection />
             <AccordionComponent />
             <Divider />
