@@ -1,20 +1,19 @@
 'use strict';
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import { AdminPage } from './Admin.page';
+import Home from './Home.page';
+import PrivacyAndCookiePolicy from './PrivacyAndCookiePolicy.page';
+import TandC from './T&C.page';
+import AboutUs from './aboutUs';
+import ContactUs from './contactUs';
 // import TandC from './pages/t&c';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
-// import { ContactForm } from './components/ContactForm';
-import Footer from './components/Footer';
-import ContactUs from './pages/contactUs';
-import AboutUs from './pages/aboutUs';
-import { AdminPage } from './pages/Admin.page';
 
-const Home = lazy(() => import('./pages/Home.page'));
-const PrivacyAndCookiePolicy = lazy(
-    () => import('./pages/PrivacyAndCookiePolicy.page')
-);
-const TandC = lazy(() => import('./pages/T&C.page'));
+
+
 
 const App = () => {
     return (

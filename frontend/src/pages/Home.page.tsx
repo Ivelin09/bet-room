@@ -28,6 +28,7 @@ const Home = () => {
             {/* <Hero></Hero> */}
             {/* background-image: url('http://192.168.0.101:5000/src/assets/football.jpg'), */}
             <Header scrollUseRef={scrollUseRef} />
+            <Header scrollUseRef={() => {}} />
             <HelloSection />
             <div ref={scrollRef} className='flex flex-col sm:flex-row gap-4 w-full p-4 justify-center font-bold '>
                 <CardComponent
