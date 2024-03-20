@@ -19,6 +19,7 @@ const Footer = () => {
 								color="primary"
 								underline="hover"
 								className="font-bold uppercase text-md cursor-pointer"
+								onPress={() => navigate('/about-us')}
 							>
 								about us
 							</Link>
@@ -40,16 +41,30 @@ const Footer = () => {
 								orientation="vertical"
 								className="h-6 sm:block hidden"
 							/>
+							<Link
+								color="primary"
+								underline="hover"
+								onPress={() =>
+									navigate('/no-refund-policy')
+								}
+								className="font-bold uppercase text-md cursor-pointer"
+							>
+								No Refund Policy
+							</Link>
+							<Divider
+								orientation="vertical"
+								className="h-6 sm:block hidden"
+							/>
 						</div>
 
 						<div className="flex sm:flex-row flex-col gap-2">
 							<Link
 								color="primary"
 								underline="hover"
-								onClick={() =>
+								className="font-bold uppercase text-md cursor-pointer"
+								onPress={() =>
 									navigate('/privacy-and-cookie-policy')
 								}
-								className="font-bold uppercase text-md cursor-pointer"
 							>
 								privacy
 							</Link>
@@ -61,7 +76,7 @@ const Footer = () => {
 								color="primary"
 								underline="hover"
 								className="font-bold uppercase text-md cursor-pointer"
-								onClick={() => navigate('/contact-us')}
+								onPress={() => navigate('/contact-us')}
 							>
 								contact us
 							</Link>

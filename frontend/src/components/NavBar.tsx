@@ -50,7 +50,7 @@ const NavBar = () => {
                                 className="cursor-pointer"
                                 size="lg"
                                 color="foreground"
-                                href={item.link}
+                                onPress={() => navigate(item.link)}
                             >
                                 {item.label}
                             </Link>
@@ -65,7 +65,7 @@ const NavBar = () => {
 							className="w-full cursor-pointer"
 							size="lg"
 							color="foreground"
-                            href={item.link}
+                            onPress={() => navigate(item.link)}
 						>
 							{item.label}
 						</Link>

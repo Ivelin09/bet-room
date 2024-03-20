@@ -10001,3 +10001,137 @@
 2024-03-20T22:57:43:       at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:17)
 2024-03-20T22:57:43:       at TypeScriptParserMixin.parseExprListItem (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11696:18)
 2024-03-20T22:57:43:       at TypeScriptParserMixin.parseCallExpressionArguments (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10776:22)
+2024-03-20T23:02:05: 11:02:05 PM [vite] Internal server error: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/NavBar.tsx: JSX attributes must only be assigned a non-empty expression. (53:40)
+2024-03-20T23:02:05: 
+2024-03-20T23:02:05:   51 |                                 size="lg"
+2024-03-20T23:02:05:   52 |                                 color="foreground"
+2024-03-20T23:02:05: > 53 |                                 onPress={}
+2024-03-20T23:02:05:      |                                         ^
+2024-03-20T23:02:05:   54 |                             >
+2024-03-20T23:02:05:   55 |                                 {item.label}
+2024-03-20T23:02:05:   56 |                             </Link>
+2024-03-20T23:02:05:   Plugin: vite:react-babel
+2024-03-20T23:02:05:   File: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/NavBar.tsx:53:40
+2024-03-20T23:02:05:   51 |                                  size="lg"
+2024-03-20T23:02:05:   52 |                                  color="foreground"
+2024-03-20T23:02:05:   53 |                                  onPress={}
+2024-03-20T23:02:05:      |                                          ^
+2024-03-20T23:02:05:   54 |                              >
+2024-03-20T23:02:05:   55 |                                  {item.label}
+2024-03-20T23:02:05:       at constructor (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:353:19)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.raise (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3277:19)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseAttributeValue (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6661:16)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseAttribute (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6708:38)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6722:28)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9667:18)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6717:17)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6741:33)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6753:32)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.jsxParseElement (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6804:17)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6816:19)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T23:02:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9404:39
+2024-03-20T23:02:05:       at TypeScriptParserMixin.tryParse (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3608:20)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9404:18)
+2024-03-20T23:02:05:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:39
+2024-03-20T23:02:05:       at TypeScriptParserMixin.allowInAnd (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11936:12)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:17)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11199:28)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9415:20)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseFunctionBody (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11609:24)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseArrowExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11591:10)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11211:12)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:05:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T23:02:06: 11:02:06 PM [vite] Internal server error: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/NavBar.tsx: JSX attributes must only be assigned a non-empty expression. (53:40)
+2024-03-20T23:02:06: 
+2024-03-20T23:02:06:   51 |                                 size="lg"
+2024-03-20T23:02:06:   52 |                                 color="foreground"
+2024-03-20T23:02:06: > 53 |                                 onPress={}
+2024-03-20T23:02:06:      |                                         ^
+2024-03-20T23:02:06:   54 |                             >
+2024-03-20T23:02:06:   55 |                                 {item.label}
+2024-03-20T23:02:06:   56 |                             </Link>
+2024-03-20T23:02:06:   Plugin: vite:react-babel
+2024-03-20T23:02:06:   File: /home/justfrenzy/share/bet-room/bet-room-1/frontend/src/components/NavBar.tsx:53:40
+2024-03-20T23:02:06:   51 |                                  size="lg"
+2024-03-20T23:02:06:   52 |                                  color="foreground"
+2024-03-20T23:02:06:   53 |                                  onPress={}
+2024-03-20T23:02:06:      |                                          ^
+2024-03-20T23:02:06:   54 |                              >
+2024-03-20T23:02:06:   55 |                                  {item.label}
+2024-03-20T23:02:06:       at constructor (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:353:19)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.raise (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3277:19)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseAttributeValue (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6661:16)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseAttribute (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6708:38)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6722:28)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9667:18)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseOpeningElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6717:17)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6741:33)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseElementAt (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6753:32)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.jsxParseElement (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6804:17)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6816:19)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T23:02:06:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9404:39
+2024-03-20T23:02:06:       at TypeScriptParserMixin.tryParse (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:3608:20)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9404:18)
+2024-03-20T23:02:06:       at /home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:39
+2024-03-20T23:02:06:       at TypeScriptParserMixin.allowInAnd (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11936:12)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10318:17)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11199:28)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9415:20)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseFunctionBody (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11609:24)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseArrowExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11591:10)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:11211:12)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10857:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprAtom (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:6821:20)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprSubscripts (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10590:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseUpdate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10573:21)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10551:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnary (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:9466:18)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10405:61)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseExprOps (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10410:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeConditional (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10387:23)
+2024-03-20T23:02:06:       at TypeScriptParserMixin.parseMaybeAssign (/home/justfrenzy/share/bet-room/bet-room-1/frontend/node_modules/@babel/parser/lib/index.js:10348:21)
