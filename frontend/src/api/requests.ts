@@ -2,15 +2,13 @@ import * as api from './api';
 
 const endpoints = {
     login: '/auth/login',
-    getArchives: '/archives/',
+    getArchives: '/archives/get',
     addArchives: '/archives/add',
     removeArhive: '/archives/remove',
-    sendMail: '/support/mail'
+    sendMail: '/support/mail',
 };
 
-export const removeArchive = async (
-    archiveId: string,
-) => {
+export const removeArchive = async (archiveId: string) => {
     return api.post(endpoints.removeArhive, { id: archiveId });
 };
 
@@ -19,7 +17,7 @@ export const addArchive = async (
     match: string,
     tip: string,
     odd: number,
-    result: boolean
+    result: 'win' | 'lose' | string
 ) => {
     return api.post(endpoints.addArchives, { date, match, tip, odd, result });
 };
@@ -32,6 +30,10 @@ export const getAllArchives = async () => {
     return api.get(endpoints.getArchives);
 };
 
-export const sendMail = async (name: string, email: string, message: string) => {
-    return api.post(endpoints.sendMail, {name, email, message})
-}
+export const sendMail = async (
+    name: string,
+    email: string,
+    message: string
+) => {
+    return api.post(endpoints.sendMail, { name, email, message });
+};

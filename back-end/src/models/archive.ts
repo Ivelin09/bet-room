@@ -5,7 +5,7 @@ interface IArchive extends Document {
     match: string;
     tip: string;
     odd: number;
-    result: boolean;
+    result: 'win' | 'lose';
 }
 
 const archiveSchema = new Schema<IArchive>(
@@ -27,7 +27,7 @@ const archiveSchema = new Schema<IArchive>(
             required: true,
         },
         result: {
-            type: Boolean,
+            type: String,
             required: true,
         },
     },

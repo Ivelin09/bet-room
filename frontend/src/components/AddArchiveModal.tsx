@@ -11,14 +11,31 @@ import {
     SelectItem,
 } from '@nextui-org/react';
 import { useState } from 'react';
+import { addArchive } from '../api/requests';
 
-export const AddArchiveModal = () => {
+export const AddArchiveModal = ({ setArchives }: { setArchives: any }) => {
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     const [date, setDate] = useState('');
     const [match, setMatch] = useState('');
     const [tip, setTip] = useState('');
     const [odd, setOdd] = useState('');
-    const [result, setResult] = useState(new Set([]));
+    const [value, setValue] = useState('');
+
+    const handleSubmit = async () => {
+        try {
+            const arch = await addArchive(
+                date,
+                match,
+                tip,
+                Number.parseInt(odd),
+                value
+            );
+            setArchives((prev: any) => [arch, ...prev]);
+        } catch (err: any) {
+            console.log(err.message);
+        }
+        console.log('ran');
+    };
 
     return (
         <>
@@ -66,8 +83,8 @@ export const AddArchiveModal = () => {
                                     label='Result'
                                     placeholder='Enter the result of the tip'
                                     defaultSelectedKeys={['win']}
-                                    selectedKeys={result}
-                                    // onSelectionChange={(keys) => setResult(keys)}
+                                    selectedKeys={[value]}
+                                    onChange={(e) => setValue(e.target.value)}
                                 >
                                     <SelectItem key={'win'} value={'win'}>
                                         win
@@ -85,7 +102,13 @@ export const AddArchiveModal = () => {
                                 >
                                     Close
                                 </Button>
-                                <Button color='primary' onPress={onClose}>
+                                <Button
+                                    color='primary'
+                                    onPress={() => {
+                                        onClose();
+                                        handleSubmit();
+                                    }}
+                                >
                                     Add
                                 </Button>
                             </ModalFooter>

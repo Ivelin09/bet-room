@@ -7,10 +7,24 @@ import {
     TableCell,
     getKeyValue,
 } from '@nextui-org/react';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect } from 'react';
 import { getAllArchives } from '../api/requests';
 
-export const Archive = () => {
+interface IArchive {
+    date: string;
+    match: string;
+    tip: string;
+    odd: number;
+    result: boolean;
+    _id: string;
+}
+export const Archive = ({
+    archives,
+    setArchives,
+}: {
+    archives: IArchive[];
+    setArchives: any;
+}) => {
     const hardCoded = [
         {
             date: '2021-10-10',
@@ -37,7 +51,7 @@ export const Archive = () => {
         { key: 'result', label: 'RESULT' },
     ];
 
-    const [archives, setArchives] = useState([]); // Adjusted for typing below
+    // const [archives, setArchives] = useState([]);
 
     const fetchArchives = useCallback(async () => {
         try {
@@ -52,15 +66,6 @@ export const Archive = () => {
         fetchArchives();
     }, [fetchArchives]);
 
-    // Assuming Archive type is defined outside the component, if not, define it inside
-    interface Archive {
-        date: string;
-        match: string;
-        tip: string;
-        odd: number;
-        result: boolean;
-        _id: string;
-    }
 
     return (
         <div className='w-[80%] mx-auto'>
@@ -74,7 +79,7 @@ export const Archive = () => {
                         </TableColumn>
                     ))}
                 </TableHeader>
-                <TableBody items={hardCoded}>
+                <TableBody items={archives}>
                     {(item) => (
                         <TableRow key={item._id}>
                             {(columnKey) => (

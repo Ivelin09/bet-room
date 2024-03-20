@@ -9,10 +9,10 @@ export interface Payload {
     match: string;
     tip: string;
     odd: number;
-    result: boolean;
+    result: "win" | "lose";
 }
 
-router.get('/', async (c: Context) => {
+router.get('/get', async (c: Context) => {
     const archives = await Archive.find();
     return c.json(archives, 200);
 });
