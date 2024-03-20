@@ -2,11 +2,11 @@ import {
     Card,
     CardBody,
     CardFooter,
-    Link,
     Button,
     Divider,
 } from '@nextui-org/react';
 import '../styles/homeStyles.css';
+import { useNavigate } from 'react-router-dom';
 
 export const CardComponent = ({
     title,
@@ -25,6 +25,7 @@ export const CardComponent = ({
     setCartItem: React.Dispatch<React.SetStateAction<{title: string, price: number}>>;
     color: string;
 }) => {
+    const navigate = useNavigate();
     return (
 
         
@@ -40,7 +41,7 @@ export const CardComponent = ({
                 />
                 <div className='flex flex-col justify-center items-start text-md'>
                     <p>{text}</p>
-                    <p>based on 1x2 0/4</p>
+                    <p>based on 1x2 0/U</p>
                     <p>AH, BTTS and etc.</p>
                     <p>Suitable for Beginners</p>
                     <p>24/7 service</p>
@@ -61,7 +62,7 @@ export const CardComponent = ({
                     <Button
                         variant='ghost'
                         color='primary'
-                        onClick={() => {
+                        onPress={() => {
                             setCheckout(true);
                             onOpen();
                             setCartItem({title: title, price: price});
@@ -76,6 +77,7 @@ export const CardComponent = ({
                         variant='shadow'
                         radius='lg'
                         className='uppercase'
+                        onPress={() => navigate('/archive')}
                     >
                         archives
                     </Button>

@@ -11,6 +11,7 @@ import TandC from './T&C.page';
 import AboutUs from './aboutUs';
 import ContactUs from './contactUs';
 import { ArchivePage } from './Archive.page';
+import NoRefundPolicy from './NoRefundPolicy.page';
 // import TandC from './pages/t&c';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
 
@@ -38,6 +39,7 @@ const App = () => {
                             />
                             <Route path='/about-us' element={<AboutUs />} />
                             <Route path='/archive' element={<ArchivePage />} />
+                            <Route path='/no-refund-policy' element={<NoRefundPolicy />} />
                             <Route path='*' element={<Home />} />
 
                         </Routes>

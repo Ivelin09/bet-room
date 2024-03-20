@@ -24,7 +24,7 @@ const Header = ({scrollUseRef}: {scrollUseRef: () => void}) => {
 				<Button
 					variant="shadow"
 					color="primary"
-                    radius='full'
+                    radius='md'
 					className='uppercase'
 					onPress={scrollUseRef}
 				>
@@ -33,7 +33,7 @@ const Header = ({scrollUseRef}: {scrollUseRef: () => void}) => {
 				<Button
 					variant="shadow"
 					color="primary"
-                    radius='full'
+                    radius='md'
 					className="uppercase"
 					onPress={() => navigate('/about-us')}
 				>

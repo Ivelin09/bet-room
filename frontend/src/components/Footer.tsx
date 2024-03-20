@@ -1,17 +1,22 @@
-import { Divider, Link } from '@nextui-org/react';
+import { Divider, Image, Link } from '@nextui-org/react';
 import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
 	const navigate = useNavigate();
 
 	return (
-		<div className="sm:w-[1170px] md:w-[80%] w-[90%] my-[50px] mx-auto py-[60px] sm:px-[50px] px-[20px]">
+		<div className="sm:w-[1170px] md:w-[80%] w-[90%] my-[10px] mx-auto   px-[20px]">
+			{/* sm:px-[50px]  py-[60px]*/}
 			<div className=" flex flex-col w-full justify-center gap-8 ">
 				<div className="flex flex-row w-full justify-between gap-8">
 					<div>
-						<h1 className="font-bold cursor-pointer uppercase text-inherit">
-							BetRoom
-						</h1>
+						<div className="font-bold cursor-pointer text-inherit flex flex-col sm:flex-row gap-2 justify-center items-center">
+							<Image
+								src="./src/assets/logo.webp"
+								className="w-8"
+							/>
+							<p>BETROOM</p>
+						</div>
 					</div>
 					<div className="flex flex-row gap-2">
 						<div className="flex sm:flex-row flex-col gap-2">
@@ -44,9 +49,7 @@ const Footer = () => {
 							<Link
 								color="primary"
 								underline="hover"
-								onPress={() =>
-									navigate('/no-refund-policy')
-								}
+								onPress={() => navigate('/no-refund-policy')}
 								className="font-bold uppercase text-md cursor-pointer"
 							>
 								No Refund Policy

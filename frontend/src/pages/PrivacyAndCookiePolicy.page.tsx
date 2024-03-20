@@ -1,8 +1,11 @@
 import { Link } from '@nextui-org/react';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const PrivacyAndCookiePolicy = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
 	const navigate = useNavigate();
 
 	return (

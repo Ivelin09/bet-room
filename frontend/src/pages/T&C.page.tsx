@@ -1,7 +1,12 @@
 import { Link } from '@nextui-org/react';
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const TandC = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
 	return (
 		<div className="sm:w-[1170px] md:w-[80%] w-[90%] mx-auto py-[60px] ">
 			<div className="flex justify-center items-center w-full mb-[55px] ">
