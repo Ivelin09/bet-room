@@ -2,16 +2,16 @@
 import { Suspense, lazy } from 'react';
 import { AuthProvider } from 'react-auth-kit';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import { AdminPage } from './Admin.page';
-import Home from './Home.page';
-import PrivacyAndCookiePolicy from './PrivacyAndCookiePolicy.page';
-import TandC from './T&C.page';
-import AboutUs from './aboutUs';
-import ContactUs from './contactUs';
-import { ArchivePage } from './Archive.page';
-import NoRefundPolicy from './NoRefundPolicy.page';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import { AdminPage } from './pages/Admin.page';
+import Home from './pages/Home.page';
+import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy.page';
+import TandC from './pages/T&C.page';
+import AboutUs from './pages/AboutUs.page';
+import ContactUs from './pages/ContactUs.page';
+import { ArchivePage } from './pages/Archive.page';
+import NoRefundPolicy from './pages/NoRefundPolicy.page';
 // import TandC from './pages/t&c';
 // import PrivacyAndCookiePolicy from './pages/PrivacyAndCookiePolicy';
 

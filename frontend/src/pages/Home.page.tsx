@@ -1,11 +1,9 @@
-import { Link, Divider, useDisclosure } from '@nextui-org/react';
+import { useDisclosure } from '@nextui-org/react';
 import { CardComponent } from '../components/CardComponent';
 import { useRef, useState } from 'react';
 import Paypal from '../components/Paypal';
 import Header from '../components/Header';
-import { useNavigate } from 'react-router-dom';
 import HelloSection from '../components/HelloSection';
-import { Archive } from '../components/Archive';
 import AccordionComponent from '../components/AccordionComponent';
 import '../styles/homeStyles.css';
 
@@ -16,7 +14,6 @@ const Home = () => {
         title: '',
         price: 0,
     });
-    const navigate = useNavigate();
     const scrollRef = useRef();
 
     const scrollUseRef = () => {
@@ -68,8 +65,6 @@ const Home = () => {
                 )}
             </div>
             <AccordionComponent />
-            {/* <Divider /> */}
-            {/* <Archive /> */}
 
         </div>
     );

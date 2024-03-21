@@ -68,7 +68,7 @@ export const Archive = ({
 
 
     return (
-        <div className='sm:w-[80%] w-[95%]  flex flex-col gap-4 justify-center items-center mx-auto'>
+        <div className='sm:w-[80%] w-[95%] h-[70vh]   flex flex-col gap-4 justify-center items-center mx-auto'>
             <h1 className='text-center'>Archive</h1>
 
             <Table aria-label='Archive table'>

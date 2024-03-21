@@ -10,8 +10,6 @@ export const LoginPage = () => {
     const authenticateUser = useAuth();
 
     const handleSubmit = async () => {
-        console.log('ran');
-        
         try {
             if (!username || !password)
                 throw new Error('Please fill in all the fields');
