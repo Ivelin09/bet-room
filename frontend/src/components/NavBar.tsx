@@ -1,5 +1,4 @@
 import {
-	Button,
 	Image,
 	Link,
 	Navbar,
@@ -83,18 +82,6 @@ const NavBar = () => {
 						</Link>
 					</NavbarMenuItem>
 				))}
-				{/* {menuItems.map((item, index) => (
-					<NavbarMenuItem key={`${item}-${index}`}>
-						<Link
-							className="w-full"
-							
-							size="lg"
-                            color='foreground'
-						>
-							{item}
-						</Link>
-					</NavbarMenuItem>
-				))} */}
 			</NavbarMenu>
 		</Navbar>
 	);
